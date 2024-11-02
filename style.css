@@ -1,0 +1,120 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+
+    box-sizing: border-box;
+
+    font-family: "Quicksand", sans-serif;
+    text-transform: uppercase;
+}
+
+header{
+    background-color: rgb(255, 187, 0);
+    margin-bottom: 25px;
+}
+
+.cont-centralize{
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img{
+    width: 150px;
+    border: 2px solid;
+    border-radius: 25px;
+    margin: 5px 25px;
+}
+
+.cont-logo{
+    display: flex;
+    align-items: center;
+
+    font-size: 25px;
+}
+
+header ul li{
+    display: inline;
+    margin-left: 25px;
+}
+
+header li a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 25px;
+}
+
+header li a:hover{
+    color: aqua;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+article{
+    margin: 0px 25px;
+    width: 45%;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+article img{
+    width: 450px;
+    height: 350px;
+    border: 1px solid;
+    border-radius: 25px;
+}
+
+article p{
+    text-transform: initial;
+}
+
+.cont-form form{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+textarea{
+    resize: none;
+}
+
+.cont-form button{
+    padding: 10px;
+    width: 100px;
+    margin: 0 auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cont-form input[type="text"],
+.cont-form input[type="email"],
+.cont-form input[type="tel"],
+.cont-form textarea{
+    margin-bottom: 25px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.cont-form article{
+    margin-left: 45px;
+}
+
+.cont-form h3{
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+footer{
+    margin-top: 25px;
+    text-align: center;
+}
